@@ -2,8 +2,10 @@
 #include <vector>
 using namespace std;
 
+//3. Longest Substring Without Repeating Characters -Leetcode
+
 // Function Logic
-int func(string s) {
+int length(string s) {
     int i = 0, j = 0;
     int max = 0;
     int curr = 0;
@@ -30,7 +32,7 @@ int main() {
     // change this variable for input
     string s = "abcabcbb";
 
-    cout << func(s);
+    cout << length(s);
 
     return 0;
 }
